@@ -9,5 +9,9 @@ public class AppTest {
     public void shouldAnswerWithTRUEtest() {
         assertTrue(true);
     }
+    
+    public void shouldAnswerWithFalse() {
+        assertFalse(true);
+    }
 
 }
