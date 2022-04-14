@@ -1,6 +1,8 @@
 package project2.project2;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
 public class AppTest {
