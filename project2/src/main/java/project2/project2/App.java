@@ -3,10 +3,11 @@ import java.util.Arrays;
 public class App {
     
 	
+	//Author: Ramesh Mummidi
 	
+	//Description: sort function is used to sort the array 
 	static void sort() {
-		//committed by Ramesh
-		
+		int [] array = new int [] {90,23,5,109,12,22,67,34};
 		Arrays.sort(array);
 		System.out.println("Elements of array sorted in ascending order: ");
 		for (int i = 0; i<array.length;i++)
@@ -17,6 +18,9 @@ public class App {
 	
 	}
 	
+	//Author: Ramesh Mummidi
+	
+	//Description: count function is used to count the numbers
 	static void count() {
 		int count = 0, num = 123456;
 
@@ -26,8 +30,8 @@ public class App {
 	    System.out.println("Number of digits: " + count);
 	}
     public static void main(String[] args) {
-    	int [] array = new int [] {90,23,5,109,12,22,67,34};
-        sort();
+   
+    	sort();
     	count();
     	
     }
