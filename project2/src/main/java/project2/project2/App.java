@@ -39,11 +39,33 @@ public class App {
 
 	    System.out.println("Number of digits: " + count);
 	}
+	  //Author: Kavya sree
+
+    //Description: replace function is used to replace the characters
+    static void replace(){
+        String s1="javatpoint is a very good website";  
+        String replaceString=s1.replace('a','e');//replaces all occurrences of a to e  
+        System.out.println(replaceString); 
+    }
+  //Author: Kavya sree
+
+    //Description:Adding two strings with concatenation function
+    static void concatenation(){
+        String s="Kavya"+" Sree";
+        System.out.println(s);//Kavya sree
+        }
     public static void main(String[] args) {
-   
+    	printHi();
     	sort();
     	count();
+    	replace();
+    	concatenation();
     	
     }
+    
+  
+    
+    
+
     
 }
