@@ -2,7 +2,7 @@ package project2.project2;
 
 public class App {
     
-	public void printHi() {
+	static void printHi() {
 		
 		System.out.println("Hello World!");
 	
@@ -10,6 +10,7 @@ public class App {
 	
     public static void main(String[] args) {
     	
+    	//hi sam
     	printHi();
     	
     }
