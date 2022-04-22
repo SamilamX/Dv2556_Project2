@@ -1,4 +1,6 @@
 
+package project2.project2;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
