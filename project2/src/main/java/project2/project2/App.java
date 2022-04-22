@@ -3,6 +3,16 @@ import java.util.Arrays;
 public class App {
     
 	
+	//Author: Gaik Teng Ooi
+	
+	//Description: Dummy function to print "hello world"
+	static void printHi() {
+		
+		System.out.println("Hello World!");
+        System.out.println("This is Ramesh!");
+
+	}
+	
 	//Author: Ramesh Mummidi
 	
 	//Description: sort function is used to sort the array 
