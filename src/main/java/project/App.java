@@ -48,5 +48,26 @@ public class App {
         count(9999);
 
     }
-
+    //Author: Sam Axelsson
+    //Description: Merger two strings so that every other character is from input2,
+    // it also adds any remaing characters to the output
+    static String merger(String input1, String input2) {
+        String output = "";
+        // if input1 has less character or the same as input2
+        int len = input1.length();
+        // if input2 have more
+        if (input1.length() > input2.length()){
+            len = input2.length();
+        }
+        for(int i = 0; i < len; i++ ) {
+            output += input1.charAt(0);
+            output += input2.charAt(0);
+            input1 = input1.substring(1);
+            input2 = input2.substring(1);
+        }
+        //add the remaing of the bigger string
+        output += input1;
+        output += input2;
+        return output;
+    }
 }

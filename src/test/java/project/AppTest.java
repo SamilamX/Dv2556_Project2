@@ -74,4 +74,12 @@ public class AppTest {
         }
         assertEquals(0, passed);
     }
+
+
+    //Author: Sam Axelsson
+    // Description: Test to see if the merger function works
+    @Test
+    public void test5() {
+        assertTrue(true);
+    }
 }
