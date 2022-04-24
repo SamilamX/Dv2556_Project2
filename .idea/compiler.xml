@@ -9,5 +9,8 @@
         <module name="Dv2556_Project_Final" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dv2556_Project2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

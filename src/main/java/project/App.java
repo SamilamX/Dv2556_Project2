@@ -9,7 +9,6 @@ public class App {
     static String printHi() {
 
         System.out.println("Hello World!");
-        System.out.println("This is Ramesh!");
         return "Hello World";
     }
 
