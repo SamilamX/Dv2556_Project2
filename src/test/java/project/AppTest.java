@@ -128,7 +128,7 @@ public class AppTest {
 
         System.out.println("Testing replace()");
         project.App test = new App();
-        String expectedString = "Sem is a good boy";
+        String expectedString = "Sem is e good boy";
         String actualString = test.replace("Sem is e good boy");
 
         assertEquals(expectedString, actualString);
@@ -160,7 +160,7 @@ public class AppTest {
 
         String expectedString = "Geik Teng epril birthdey";
         String actualString_1 = test.concatenation("Gaik Teng", "april birthday");
-        String actualString = test.replace(actualString_1));
+        String actualString = test.replace(actualString_1);
 
         assertEquals(expectedString, actualString);
 
@@ -169,11 +169,13 @@ public class AppTest {
     //Description: combined test for printAlphabet and concatenate function
      @Test
     public void test11() {
-        String input1 = printAlphabet(20);
-        String input2 = printAlphabet(21);
+
         project.App test = new App();
+        String input1 = test.printAlphabet(20);
+        String input2 = test.printAlphabet(21);
         String result = test.concatenation(input1, input2);
-        assertEquals(result, "V W X Y Z  W X Y Z");
+        assertEquals(result, "T U V W X Y Z  U V W X Y Z ");
+
     }
 
 
