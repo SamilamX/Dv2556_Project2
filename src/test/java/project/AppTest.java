@@ -59,5 +59,19 @@ public class AppTest {
         assertEquals(expectedCount, actualCount);
 
     }
-
+    //Author: Sam Axelsson
+    //Description: Test to see if bubble sort function sortet correctly a
+    @Test
+    public void test4() {
+        int passed = 0;
+        int [] Sorted_array = new int [] {1,2};
+        for (int i = 1; i < Sorted_array.length; i++) {
+            if(Sorted_array[i-1] < Sorted_array[i]) {
+                ;
+            } else {
+                passed = 1;
+            }
+        }
+        assertEquals(0, passed);
+    }
 }
