@@ -60,13 +60,6 @@ public class App {
         return s;
      }
 
-    public static void main(String[] args) {
-
-        sort();
-        count(9999);
-        concatenation("Kavya", "Sree");
-
-    }
     static String printAlphabet(int j) {
 		
 		String output = "";
@@ -78,12 +71,7 @@ public class App {
 	   return output;
 	   
 	}
-	
-    public static void main(String[] args) {
-   
-    	printAlphabet(15);
-    	
-    }
+
     //Author: Sam Axelsson
     //Description: Merger two strings so that every other character is from input2,
     // it also adds any remaing characters to the output
@@ -106,4 +94,19 @@ public class App {
         output += input2;
         return output;
     }
-}
+
+	
+
+    public static void main(String[] args) {
+
+        sort();
+        count(9999);
+        concatenation("Kavya", "Sree");
+        printAlphabet(15);
+
+    }
+  
+}  
+    	
+    
+    

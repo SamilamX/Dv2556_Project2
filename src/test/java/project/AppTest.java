@@ -149,6 +149,14 @@ public class AppTest {
         assertEquals(expectedString, actualString);
 
     }
+     @Test
+    public void test11() {
+        String input1 = printAlphabet(20);
+        String input2 = printAlphabet(21);
+        project.App test = new App();
+        String result = test.concatenation(input1, input2);
+        assertEquals(result, "W X Y Z  X Y Z");
+    }
 
 
 }
