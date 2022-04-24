@@ -1,6 +1,6 @@
 package project;
 
-import static org.junit.jupiter.api.Assertions.*;
+import  static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import project.App;
 
@@ -71,7 +71,7 @@ public class AppTest {
             } else {
                 passed = 1;
             }
-        }
+        }git 
         assertEquals(0, passed);
     }
 

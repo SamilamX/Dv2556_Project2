@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Dv2556_Project_Final" />
-        <module name="Dv2556_Project2" />
       </profile>
     </annotationProcessing>
   </component>
