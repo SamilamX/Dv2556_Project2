@@ -94,7 +94,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>project2.project2.project.App</mainClass>
+                                    <mainClass>project2.project2.App</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
