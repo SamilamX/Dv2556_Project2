@@ -48,6 +48,23 @@ public class App {
         count(9999);
 
     }
+    static String printAlphabet(int j) {
+		
+		String output = "";
+	    for(int i = j; i <= 26; i++) {
+	      System.out.print((char)(i+64) + " ");
+	      output += (char)(i+64);
+	      output += " ";
+	    }
+	   return output;
+	   
+	}
+	
+    public static void main(String[] args) {
+   
+    	printAlphabet(15);
+    	
+    }
     //Author: Sam Axelsson
     //Description: Merger two strings so that every other character is from input2,
     // it also adds any remaing characters to the output

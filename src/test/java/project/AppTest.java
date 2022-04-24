@@ -59,10 +59,38 @@ public class AppTest {
         assertEquals(expectedCount, actualCount);
 
     }
+    //Author: Ramesh Mummidi
+    //Description: Second test case for count()
+    @Test
+    public void test4() {
+
+        //int [] array = new int [] {90, 23, 5, 109, 12, 22, 67, 34};
+        System.out.println("Testing count()");
+        project.App test = new App();
+        int expectedCount = 3;
+        int actualCount = test.count(456);
+
+        assertEquals(expectedCount, actualCount);
+
+    }
+    //Author: Ramesh Mummidi
+    //Description: Third test case for count()
+    @Test
+    public void test5() {
+
+        //int [] array = new int [] {90, 23, 5, 109, 12, 22, 67, 34};
+        System.out.println("Testing count()");
+        project.App test = new App();
+        int expectedCount = 2;
+        int actualCount = test.count(85);
+
+        assertEquals(expectedCount, actualCount);
+
+    }
     //Author: Sam Axelsson
     //Description: Test to see if bubble sort function sorted correctly a
     @Test
-    public void test4() {
+    public void test6() {
         assertEquals(0, 0);
     }
 
@@ -70,7 +98,7 @@ public class AppTest {
     //Author: Sam Axelsson
     // Description: Test to see if the merger function works
     @Test
-    public void test5() {
+    public void test7() {
         String input1 = "Rammstein";
         String input2 = "Sabaton";
         project.App test = new App();
