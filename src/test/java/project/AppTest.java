@@ -149,13 +149,15 @@ public class AppTest {
         assertEquals(expectedString, actualString);
 
     }
+    //Author: Ramesh Mummidi
+    //Description: combined test for printAlphabet and concatenate function
      @Test
     public void test11() {
         String input1 = printAlphabet(20);
         String input2 = printAlphabet(21);
         project.App test = new App();
         String result = test.concatenation(input1, input2);
-        assertEquals(result, "W X Y Z  X Y Z");
+        assertEquals(result, "V W X Y Z  W X Y Z");
     }
 
 
