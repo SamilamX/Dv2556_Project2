@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.AppTest" time="0.05" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project.AppTest" time="0.056" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="C:\tools\jdk\jdk-11.0.14.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire17551415158397245201\surefirebooter13755041982018600166.jar C:\Windows\Temp\surefire17551415158397245201 2022-04-24T14-12-34_967-jvmRun1 surefire14684286769557341144tmp surefire_016108079258906764853tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire1081944866431849251\surefirebooter12410600544482900127.jar C:\Windows\Temp\surefire1081944866431849251 2022-04-24T14-16-18_388-jvmRun1 surefire13768103656229954330tmp surefire_04501268837555763859tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\gaikt\OneDrive\Documents\Dv2556_Project2\target\test-classes;C:\Users\gaikt\OneDrive\Documents\Dv2556_Project2\target\classes;C:\windows\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire17551415158397245201\surefirebooter13755041982018600166.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire1081944866431849251\surefirebooter12410600544482900127.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="java.runtime.version" value="11.0.14.1+1"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithFalse" classname="project.AppTest" time="0.018"/>
+  <testcase name="shouldAnswerWithFalse" classname="project.AppTest" time="0.019"/>
   <testcase name="shouldAnswerWithTRUEtest" classname="project.AppTest" time="0.001"/>
-  <testcase name="test1" classname="project.AppTest" time="0.002"/>
-  <testcase name="test2" classname="project.AppTest" time="0.013"/>
-  <testcase name="test3" classname="project.AppTest" time="0.003"/>
+  <testcase name="test1" classname="project.AppTest" time="0.004"/>
+  <testcase name="test2" classname="project.AppTest" time="0.014"/>
+  <testcase name="test3" classname="project.AppTest" time="0.002"/>
 </testsuite>

@@ -46,7 +46,7 @@ public class AppTest {
     }
 
     //Author: Gaik Teng Ooi
-    //Description: array test for count function
+    //Description: first test case for count()
     @Test
     public void test3() {
 
