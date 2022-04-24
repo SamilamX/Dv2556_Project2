@@ -34,7 +34,7 @@ public class AppTest {
   	}
   	
   	//Author: Gaik Teng Ooi
-  	//Description: dummy test for dummy function
+  	//Description: test for function sort()
   	@Test
   	public void test2() {
   		
@@ -45,5 +45,32 @@ public class AppTest {
   		assertEquals(expectedArray, actualArray); 
   		
   	}
+  	
+  	//Author: Gaik Teng Ooi
+  	//Description: test for dummy function
+  	@Test
+  	public void test3() {
+  		
+  		//int [] array = new int [] {90, 23, 5, 109, 12, 22, 67, 34};
+  		int [] expectedArray = new int [] {5, 12, 22, 23, 34, 67, 90, 109};
+  		int [] actualArray = sort();
+  		
+  		assertEquals(expectedArray, actualArray); 
+  		
+  	}
 
+  	//Author: Gaik Teng Ooi
+  	//Description: dummy test for dummy function
+  	@Test
+  	public void test4() {
+  		
+  		//int [] array = new int [] {90, 23, 5, 109, 12, 22, 67, 34};
+  		int [] expectedArray = new int [] {5, 12, 22, 23, 34, 67, 90, 109};
+  		int [] actualArray = sort();
+  		
+  		assertEquals(expectedArray, actualArray); 
+  		
+  	}
+  	
+  	
 }
