@@ -42,12 +42,36 @@ public class App {
         System.out.println("Number of digits: " + count);
         return count;
     }
-    public static void main(String[] args) {
-
-        sort();
-        count(9999);
-
+    //Author: Kavya sree
+    //Description: replace function is used to replace the characters
+    static String replace(String s1){
+        String replaceString=s1.replace('a','e');//replaces all occurrences of a to e
+        System.out.println(replaceString);
+        return replaceString;
     }
+
+    //Author: Kavya sree
+    //Description:Adding two strings with concatenation function
+    static String concatenation(String s1, String s2){
+        String s = "";
+        s = s1 + " " + s2;
+        System.out.println(s);//Kavya sree
+
+        return s;
+     }
+
+    static String printAlphabet(int j) {
+		
+		String output = "";
+	    for(int i = j; i <= 26; i++) {
+	      System.out.print((char)(i+64) + " ");
+	      output += (char)(i+64);
+	      output += " ";
+	    }
+	   return output;
+	   
+	}
+
     //Author: Sam Axelsson
     //Description: Merger two strings so that every other character is from input2,
     // it also adds any remaing characters to the output
@@ -70,4 +94,19 @@ public class App {
         output += input2;
         return output;
     }
-}
+
+	
+
+    public static void main(String[] args) {
+
+        sort();
+        count(9999);
+        concatenation("Kavya", "Sree");
+        printAlphabet(15);
+
+    }
+  
+}  
+    	
+    
+    
