@@ -42,10 +42,29 @@ public class App {
         System.out.println("Number of digits: " + count);
         return count;
     }
+    //Author: Kavya sree
+    //Description: replace function is used to replace the characters
+    static String replace(String s1){
+        String replaceString=s1.replace('a','e');//replaces all occurrences of a to e
+        System.out.println(replaceString);
+        return replaceString;
+    }
+
+    //Author: Kavya sree
+    //Description:Adding two strings with concatenation function
+    static String concatenation(String s1, String s2){
+        String s = "";
+        s = s1 + " " + s2;
+        System.out.println(s);//Kavya sree
+
+        return s;
+     }
+
     public static void main(String[] args) {
 
         sort();
         count(9999);
+        concatenation("Kavya", "Sree");
 
     }
     static String printAlphabet(int j) {

@@ -105,4 +105,50 @@ public class AppTest {
         String result = test.merger(input1, input2);
         assertEquals(result, "RSaambmasttoenin");
     }
+     //Author: Kavya Sree
+    //Description: test for replace function
+    @Test
+    public void test8() {
+
+        System.out.println("Testing replace()");
+        project.App test = new App();
+        String expectedString = "Sem is a good boy";
+        String actualString = test.replace("Sem is e good boy");
+
+        assertEquals(expectedString, actualString);
+
+    }
+
+
+    //Author: Kavya Sree
+    //Description: test for replace function
+    @Test
+    public void test9() {
+
+        System.out.println("Testing replace()");
+        project.App test = new App();
+        String expectedString = "Remesh is e good boy";
+        String actualString = test.replace("Ramesh is a good boy");
+
+        assertEquals(expectedString, actualString);
+
+    }
+
+    //Author: Kavya Sree
+    //Description: combined test for replace and concatenate function
+    @Test
+    public void test10() {
+
+        System.out.println("Testing replace() and concatenate()");
+        project.App test = new App();
+
+        String expectedString = "Geik Teng epril birthdey";
+        String actualString_1 = test.concatenation("Gaik Teng", "april birthday");
+        String actualString = test.replace(actualString_1));
+
+        assertEquals(expectedString, actualString);
+
+    }
+
+
 }
