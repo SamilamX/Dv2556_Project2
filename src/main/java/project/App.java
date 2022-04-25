@@ -102,7 +102,7 @@ public class App {
 
         for(int i = 0; i < input.length; i++){
             for(int ii = i+1; ii < input.length; ii++){
-                if( input[ii].compareTo(input[i]) < 0) {
+                if( input[ii].compareToIgnoreCase(input[i]) < 0) {
                     String hold = input[i];
                     input[i] = input[ii];
                     input[ii] = hold;
