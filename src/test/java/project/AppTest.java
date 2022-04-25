@@ -201,6 +201,7 @@ public class AppTest {
 
     //Author: Gaik Teng Ooi
     //Description: combined test for priceOfWord() and bubbleName()
+    //could be improved further with function to ignore lower and upper case
     @Test
     public void test13() {
 
