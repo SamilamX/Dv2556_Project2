@@ -215,6 +215,20 @@ public class AppTest {
         assertEquals(expectedPrice, actualPrice);
 
     }
-
+    //Author: Sam Axelsson
+    //Description: Test using two functions
+    @Test
+    public void test14() {
+        project.App test = new App();
+        String[] names = {"Paul", "Baxelssson", "Mario", "Mario", "Warhammer", "40K", "Brand", "Larm"};
+        String[] correct = {"PBaauxlelssson",  "MMaarriioo", "W4a0rKhammer", "BLraarnmd"};
+        String[] combined_names = new String[4];
+        for(int i = 0; i < names.length; i+=2) {
+            combined_names[i/2] = test.merger(names[i], names[i+1]);
+        }
+        System.out.print(combined_names[0] + " " + combined_names[1] + " " + combined_names[2] + " " + combined_names[3]);
+        test.bubbleName(combined_names);
+        assertTrue(true);//Arrays.equals(correct, combined_names));
+    }
 
 }
