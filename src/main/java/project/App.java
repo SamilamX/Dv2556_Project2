@@ -33,7 +33,7 @@ public class App {
     //Author: Ramesh Mummidi
 
     //Description: count function is used to count the numbers
-    static int count(int num) {
+    /*static int count(int num) {
         int count = 0;
 
         for (; num != 0; num /= 10, ++count) {
@@ -41,7 +41,8 @@ public class App {
 
         System.out.println("Number of digits: " + count);
         return count;
-    }
+    }*/
+
     //Author: Kavya sree
     //Description: replace function is used to replace the characters
     static String replace(String s1){
