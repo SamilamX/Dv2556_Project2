@@ -55,7 +55,7 @@ public class App {
     //Description:Adding two strings with concatenation function
     static String concatenation(String s1, String s2){
         String s = "";
-        s = s1 + s2;
+        s = s1 + " " + s2;
         System.out.println(s);//Kavya sree
 
         return s;
