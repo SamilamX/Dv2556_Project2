@@ -2,9 +2,9 @@ package project;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import project.App;
+//import project.App;
 
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class AppTest {
@@ -181,6 +181,38 @@ public class AppTest {
         String input2 = test.printAlphabet(21);
         String result = test.concatenation(input1, input2);
         assertEquals(result, "T U V W X Y Z  U V W X Y Z ");
+
+    }
+
+    //Author: Gaik Teng Ooi
+    //Description: test for priceOfWord()
+    @Test
+    public void test12() {
+
+        System.out.println("Running priceOfWord() test...");
+        project.App test = new App();
+        String input = "oil";
+        int expectedPrice = 110;
+        int actualPrice = test.priceOfWord(input);
+
+        assertEquals(expectedPrice, actualPrice);
+
+    }
+
+    //Author: Gaik Teng Ooi
+    //Description: combined test for priceOfWord() and bubbleName()
+    @Test
+    public void test13() {
+
+        System.out.println("Running bubbleName() and priceOfWord() test...");
+        project.App test = new App();
+
+        String[] inputString = {"martha", "veronica", "adrianne", "samantha"};
+        String[] sortedString = test.bubbleName(inputString);
+        int expectedPrice = 438; //the first name in sortedString should be "adrianne"
+        int actualPrice = test.priceOfWord(sortedString[0]);
+
+        assertEquals(expectedPrice, actualPrice);
 
     }
 

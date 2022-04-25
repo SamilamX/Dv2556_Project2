@@ -112,12 +112,35 @@ public class App {
         return input;
     }
 
+    //Author: Gaik Teng Ooi
+    //Description: calculates the 'price' of a given word.
+    //Each letter has a 'price' and priceOfWord() calculates the sum of each letter's price.
+    static int priceOfWord(String word) {
+
+        int price = 0;
+        // char[] charArray = new char[word.length()];
+
+        /*for (int i = 0; i < charArray.length; i++) {
+            charArray[i] = word.charAt(i);
+        }*/
+
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o' || word.charAt(i) == 'u') price += 1;
+            else price += (int) (word.charAt(i));
+        }
+
+        System.out.println("Price of your word " + word + " is: " + price);
+        return price;
+
+    }
+
     public static void main(String[] args) {
 
         sort();
         count(9999);
         concatenation("Kavya", "Sree");
         printAlphabet(15);
+        priceOfWord("oil");
 
     }
   
