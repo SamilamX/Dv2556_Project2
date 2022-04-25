@@ -124,11 +124,11 @@ public class App {
         /*for (int i = 0; i < charArray.length; i++) {
             charArray[i] = word.charAt(i);
         }*/
-
+        /*
         for (int i = 0; i < word.length(); i++) {
             if (word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o' || word.charAt(i) == 'u') price += 1;
             else price += (int) (word.charAt(i));
-        }
+        } */
 
         System.out.println("Price of your word " + word + " is: " + price);
         return price;
