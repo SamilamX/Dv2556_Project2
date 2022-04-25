@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import project.App;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class AppTest {
 
@@ -87,11 +88,16 @@ public class AppTest {
         assertEquals(expectedCount, actualCount);
 
     }
+
     //Author: Sam Axelsson
-    //Description: Test to see if bubble sort function sorted correctly a
+    //Description: Bubblesort with names or strings
     @Test
     public void test6() {
-        assertEquals(0, 0);
+        String[] inputString = {"Kalle", "bob", "Andreas", "Wario"};
+        project.App test = new App();
+        String[] result = test.bubbleName(inputString);
+        Arrays.sort(inputString, String.CASE_INSENSITIVE_ORDER);
+        assertTrue(Arrays.equals(inputString, result));
     }
 
     /* Just in case it´s overwritten

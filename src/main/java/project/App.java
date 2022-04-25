@@ -95,7 +95,22 @@ public class App {
         return output;
     }
 
-	
+    //Author: Sam Axelsson
+    //Description: Bubble sort with strings
+
+    static String[] bubbleName(String[] input){
+        for(int i = 0; i < input.length; i++){
+            for(int ii = i+1; ii < input.length; ii++){
+                if( input[ii].compareTo(input[i]) < 0) {
+                    String hold = input[i];
+                    input[i] = input[ii];
+                    input[ii] = hold;
+                }
+            }
+        }
+        return input;
+
+    }
 
     public static void main(String[] args) {
 
