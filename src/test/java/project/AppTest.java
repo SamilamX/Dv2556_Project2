@@ -94,10 +94,10 @@ public class AppTest {
     @Test
     public void test6() {
         String[] inputString = {"Kalle", "bob", "Andreas", "Wario"};
+        String[] correctString = {"Andreas", "bob", "Kalle", "Wario"};
         project.App test = new App();
         String[] result = test.bubbleName(inputString);
-        Arrays.sort(inputString, String.CASE_INSENSITIVE_ORDER);
-        assertTrue(Arrays.equals(inputString, result));
+        assertTrue(Arrays.equals(correctString, result));
     }
 
     /* Just in case it´s overwritten

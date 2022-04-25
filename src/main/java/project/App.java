@@ -99,8 +99,7 @@ public class App {
     //Description: Bubble sort with strings fail on purpose
 
     static String[] bubbleName(String[] input){
-        return input;
-        /*
+
         for(int i = 0; i < input.length; i++){
             for(int ii = i+1; ii < input.length; ii++){
                 if( input[ii].compareTo(input[i]) < 0) {
@@ -111,7 +110,6 @@ public class App {
             }
         }
         return input;
-        */
     }
 
     public static void main(String[] args) {
