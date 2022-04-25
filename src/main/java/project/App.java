@@ -97,7 +97,7 @@ public class App {
     }
 
     //Author: Sam Axelsson
-    //Description: Bubble sort with strings fail on purpose
+    //Description: Bubble sort with strings, ignores Upper and lower case
 
     static String[] bubbleName(String[] input){
 

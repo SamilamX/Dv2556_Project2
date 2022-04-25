@@ -217,7 +217,7 @@ public class AppTest {
 
     }
     //Author: Sam Axelsson
-    //Description: Test using two functions, merger an array of strings then sorting them
+    //Description: Test using two functions(merger and bubbleName), merger an array of strings then sorting them
     @Test
     public void test14() {
         project.App test = new App();
